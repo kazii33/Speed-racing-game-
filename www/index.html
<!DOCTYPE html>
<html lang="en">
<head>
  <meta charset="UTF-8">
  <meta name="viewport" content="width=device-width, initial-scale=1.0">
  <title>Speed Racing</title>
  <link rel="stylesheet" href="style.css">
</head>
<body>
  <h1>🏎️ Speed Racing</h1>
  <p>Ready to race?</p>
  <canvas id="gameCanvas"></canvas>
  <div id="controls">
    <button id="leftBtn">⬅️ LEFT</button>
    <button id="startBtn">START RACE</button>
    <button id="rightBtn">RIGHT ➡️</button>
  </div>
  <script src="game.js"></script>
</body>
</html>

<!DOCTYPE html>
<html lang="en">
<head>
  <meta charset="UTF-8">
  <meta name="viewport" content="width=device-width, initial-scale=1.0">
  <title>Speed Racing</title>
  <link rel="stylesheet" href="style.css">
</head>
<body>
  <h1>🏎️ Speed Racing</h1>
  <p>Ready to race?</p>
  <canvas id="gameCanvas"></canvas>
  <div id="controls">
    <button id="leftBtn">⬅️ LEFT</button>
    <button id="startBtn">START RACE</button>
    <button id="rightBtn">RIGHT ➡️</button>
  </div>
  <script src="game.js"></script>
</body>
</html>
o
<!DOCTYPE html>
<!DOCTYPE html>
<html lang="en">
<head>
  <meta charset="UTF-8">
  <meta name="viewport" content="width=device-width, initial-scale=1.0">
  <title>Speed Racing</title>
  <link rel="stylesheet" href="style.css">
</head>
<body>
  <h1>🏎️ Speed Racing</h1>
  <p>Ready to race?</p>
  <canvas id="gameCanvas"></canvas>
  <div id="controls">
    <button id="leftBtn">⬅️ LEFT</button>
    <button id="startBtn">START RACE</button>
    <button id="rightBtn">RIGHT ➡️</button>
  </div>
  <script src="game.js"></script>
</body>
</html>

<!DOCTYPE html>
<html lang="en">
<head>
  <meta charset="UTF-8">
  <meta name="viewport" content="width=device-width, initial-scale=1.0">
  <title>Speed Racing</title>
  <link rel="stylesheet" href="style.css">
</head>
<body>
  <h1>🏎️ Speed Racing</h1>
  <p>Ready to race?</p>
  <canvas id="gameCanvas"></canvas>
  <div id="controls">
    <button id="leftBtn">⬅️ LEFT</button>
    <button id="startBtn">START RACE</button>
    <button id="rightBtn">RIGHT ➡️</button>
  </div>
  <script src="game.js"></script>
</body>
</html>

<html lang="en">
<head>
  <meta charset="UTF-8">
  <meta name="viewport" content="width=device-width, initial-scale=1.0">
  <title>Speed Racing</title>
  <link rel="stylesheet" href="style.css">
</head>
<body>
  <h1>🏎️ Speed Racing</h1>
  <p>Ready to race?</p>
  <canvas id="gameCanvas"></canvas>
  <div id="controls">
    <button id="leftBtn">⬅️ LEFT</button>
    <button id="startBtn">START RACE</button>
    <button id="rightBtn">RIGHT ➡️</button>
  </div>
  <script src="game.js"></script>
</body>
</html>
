@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Racing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏎️ Speed Racing</h1>
+  <p>Ready to race?</p>
+  <canvas id="gameCanvas"></canvas>
+  <div id="controls">
+    <button id="leftBtn">⬅️ LEFT</button>
+    <button id="startBtn">START RACE</button>
+    <button id="rightBtn">RIGHT ➡️</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
