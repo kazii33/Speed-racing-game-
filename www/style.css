@@ -1,0 +1,45 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: #111827;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+  margin: 15px auto;
+  background: #333;
+  border: 3px solid white;
+  border-radius: 8px;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 14px 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  background: #ffcc00;
+  color: #111;
+}
